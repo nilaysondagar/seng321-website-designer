@@ -1,0 +1,9 @@
+export const BASENAME = '/';
+export const HOME = '/';
+export const OUR_TEAM = '/our-team';
+export const CONTACT = '/contact';
+export const RFPS = '/rfps';
+export const PROJECT_CSC = `${RFPS}/csc`;
+export const PROJECT_USESAFER = `${RFPS}/usesafer`;
+export const PROJECT_HS_GMB = `${RFPS}/hootsuite-gmb`;
+export const PROJECT_ESS = `${RFPS}/uvic-ess`;

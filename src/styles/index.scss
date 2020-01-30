@@ -1,0 +1,16 @@
+// General SCSS settings and HTML element styles
+@import './settings/variables.scss';
+@import './settings/animations.scss';
+@import './settings/mixins.scss';
+@import './settings/elements.scss';
+
+// Page styles
+@import './pages/HomePage.scss';
+@import './pages/OurTeamPage.scss';
+@import './pages/RFPsPage.scss';
+@import './pages/ContactPage.scss';
+
+// Component styles
+@import './components/Navigation.scss';
+@import './components/Cards.scss';
+@import './components/RFP.scss';

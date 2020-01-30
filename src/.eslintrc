@@ -1,0 +1,31 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest/globals": true,
+    "es6": true
+  },
+  "plugins": ["jest"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "no-unused-vars": 1,
+    "no-console": 1,
+    "no-case-declarations": 0,
+    "react/prop-types": 1,
+    "react/display-name": 0,
+    "react/no-deprecated": 0,
+    "react/no-unescaped-entities": "off",
+    "semi": ["error", "always"],
+    "camelcase": "warn",
+    "capitalized-comments": "warn",
+    "comma-dangle": ["warn", "never"],
+    "default-case": "warn",
+    "indent": ["warn", 2],
+    "jsx-quotes": "warn",
+    "no-dupe-keys": "error",
+    "no-var": "error",
+    "prefer-template": "warn",
+    "require-jsdoc": "warn"
+  }
+}

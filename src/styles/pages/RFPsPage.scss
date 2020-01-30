@@ -1,0 +1,27 @@
+.rfps {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vw, 1fr));
+    column-gap: 25px;
+    width: 100%;
+    max-width: $max-site-width;
+    margin-top: 5vmin;
+
+    @include small {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  @include small {
+    padding: 0 5vw;
+  }
+
+}

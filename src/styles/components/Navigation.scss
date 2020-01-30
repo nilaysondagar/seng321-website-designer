@@ -1,0 +1,66 @@
+.navigation {
+  display: flex;
+  width: 100vw;
+  min-width: $min-site-width;
+  align-items: center;
+  padding: 20px;
+  background-color: $black-color;
+
+  &__title {
+    width: 100%;
+    min-width: 315px;
+    font-size: calc(24px + 2vw);
+    font-weight: 300;
+    color: $white-color;
+    text-decoration: none;
+    text-transform: lowercase;
+    word-wrap: none;
+    margin-left: 10px;
+
+    @include small {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: 0 0 5px 0;
+    }
+
+  }
+
+  &__links {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    font-weight: 300;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px;
+
+    &__link {
+      font-size: calc(16px + 0.25vw);
+      color: $white-color;
+      text-decoration: none;
+      text-transform: lowercase;
+      margin: 0 10px;
+      transition: 0.35s ease-in;
+
+      &--our-team-active {
+        color: $blue-3-color;
+      }
+
+      &--rfps-active {
+        color: $blue-3-color;
+      }
+
+      &--contact-active {
+        color: $blue-3-color;
+      }
+
+    }
+
+  }
+
+  @include small {
+    flex-direction: column;
+  }
+
+}

@@ -1,0 +1,55 @@
+.home {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__banner {
+    display: flex;
+    width: calc(100% + 40px);
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: -20px 5vmin 20px 5vmin;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: $blue-3-color;
+    background-size: cover;
+    background-position: center;
+
+    &__title {
+      color: $blue-3-color;
+      font-size: calc(32px + 2vmax);
+      font-weight: 400;
+      text-transform: lowercase;
+    }
+
+  }
+
+  &__text {
+    color: $black-color;
+    font-size: calc(12px + 1vw);
+    font-weight: 300;
+    line-height: 1.25;
+    text-align: left;
+  }
+
+  &__row {
+    display: flex;
+    width: calc(100% + 40px);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 75px;
+    background-color: $white-color;
+
+    &:nth-of-type(2n) {
+      background-color: $blue-2-color;
+    }
+
+  }
+
+}
