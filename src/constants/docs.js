@@ -1,9 +1,9 @@
 import rfpLink from '../assets/files/rfp.pdf';
-import snowplowImage from '../assets/images/rfps/snowplowImage.jpg';
-import fakeLink from '../assets/images/rfps/memeImage.jpg';
-import ferryImage from '../assets/images/rfps/ferryImage.jpeg';
+import snowplowImage from '../assets/images/docs/snowplowImage.jpg';
+import fakeLink from '../assets/images/docs/memeImage.jpg';
+import ferryImage from '../assets/images/docs/ferryImage.jpeg';
 
-export const RFPS = [
+export const DOCS = [
   {
     image: snowplowImage,
     title: 'Snow and Ice Control',

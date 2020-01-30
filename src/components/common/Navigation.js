@@ -33,7 +33,7 @@ export class Navigation extends Component {
 
     return (
       <SlidingDownBox className="navigation" pose={navigationClassNames}>
-        <NavLink className="navigation__title" to={routes.HOME}>City of Letterkenny</NavLink>
+        <NavLink className="navigation__title" to={routes.HOME}>bad wall solutions</NavLink>
         <div className="navigation__links">
           <NavLink 
             className="navigation__links__link" 
@@ -44,10 +44,10 @@ export class Navigation extends Component {
           </NavLink>
           <NavLink 
             className="navigation__links__link" 
-            activeClassName="navigation__links__link--rfps-active"
-            to={routes.RFPS}
+            activeClassName="navigation__links__link--docs-active"
+            to={routes.DOCS}
           >
-            RFPs
+            Docs
           </NavLink>
           <NavLink 
             className="navigation__links__link" 

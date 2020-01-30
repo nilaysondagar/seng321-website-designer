@@ -22,7 +22,7 @@ p {
 
 /************** PAGE **************/
 
-.rfp {
+.doc {
   height: 100%;
   display: grid;
   grid-template-columns: 3fr 4fr;
@@ -133,7 +133,7 @@ p {
 
 @media (max-width: 1100px) {
 
-  .rfp {
+  .doc {
     
     &__image-container {
 
@@ -156,7 +156,7 @@ p {
 }
 
 @media (max-width: 1000px) {
-  .rfp {
+  .doc {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;

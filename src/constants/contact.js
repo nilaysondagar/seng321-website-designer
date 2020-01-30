@@ -7,21 +7,21 @@ export const CONTACT_INFO = [
   {
     image: emailImage,
     title: 'Email',
-    description: 'communications@letterkenny.com'
+    description: 'communications@badwallsolutions.com'
   },
   {
     image: phoneImage,
     title: 'Phone',
-    description: '(555) 441-1222'
+    description: '(555) 552-2333'
   },
   {
     image: twitterLogoImage,
     title: 'Twitter',
-    description: '@cityofletterkenny'
+    description: '@badwallsolutions'
   },
   {
     image: facebookLogoImage,
     title: 'Facebook',
-    description: 'City of Letterkenny'
+    description: 'Bad Wall Solutions'
   }
 ];

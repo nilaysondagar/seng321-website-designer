@@ -94,7 +94,7 @@
 
 }
 
-.rfp-card {
+.doc-card {
   display: flex;
   flex-direction: column;
   color: $black-color;
@@ -106,7 +106,7 @@
 
   &:nth-of-type(4) {
 
-    .rfp-card__image {
+    .doc-card__image {
       object-position: center top;
     }
 

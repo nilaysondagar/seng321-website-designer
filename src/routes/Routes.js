@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from '../pages/HomePage';
 import OurTeamPage from '../pages/OurTeamPage';
-import RFPsPage from '../pages/RFPsPage';
+import DocsPage from '../pages/DocsPage';
 import ContactPage from '../pages/ContactPage';
 import { Navigation } from '../components/common/Navigation';
 import * as routes from '../constants/routes';
@@ -18,7 +18,7 @@ export class Routes extends Component {
           <Route exact path={routes.HOME} component={HomePage} />
           <Route exact path={routes.OUR_TEAM} component={OurTeamPage} />
           <Route exact path={routes.CONTACT} component={ContactPage} />
-          <Route exact path={routes.RFPS} component={RFPsPage} />
+          <Route exact path={routes.DOCS} component={DocsPage} />
         </Switch>
       </Fragment>
     );

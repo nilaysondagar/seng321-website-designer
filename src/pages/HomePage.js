@@ -38,10 +38,10 @@ export class HomePage extends Component {
           </div>
           <div className="home__row">
             <p className="home__text">
-              Welcome to the City of Letterkenny! We are the home of skating, snowboarding, and lots
-              of snow! We are located in the province of Alberta, just off to the east of Calgary. Our
-              city is unparalleled in beauty, and in snowfall. We've received the most snow in Canada for
-              the last 4 years.
+              Bad Wall Solutions is the world's leading expert in 3D mapping and analysis systems. With just under
+              300 employees, Bad Wall Solutions services over 3 million users using over two dozen systems all designed
+              and maintained by us. Ever since we were founded in 1986, we've strived to create the best software, and
+              will continue to do so for the forseeable future!
             </p>
           </div>
         </div>

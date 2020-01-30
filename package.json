@@ -1,7 +1,7 @@
 {
-  "name": "seng321-website",
+  "name": "seng321-website-designer",
   "version": "1.0.0",
-  "homepage": "http://nilay.sondagar.com/seng321/",
+  "homepage": "http://nilay.sondagar.com/seng321-designer/",
   "private": true,
   "dependencies": {
     "@babel/core": "7.4.3",
