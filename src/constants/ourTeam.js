@@ -9,43 +9,43 @@ export const TEAM_MEMBERS = [
   {
     image: paigeHeadshot,
     name: "Paige Loffler",
-    title: "Mayor of Letterkenny",
+    title: "CEO",
     date: "2019 - Present",
-    description: "Responsible for overseeing all projects approved by the city. Approves funding for projects. Final approval on all completed projects must be given by the mayor."
+    description: "Responsible for overseeing all projects created and maintained at Bad Wall Solutions. Approves funding for all projects, and final approval on all completed projects must be given by the CEO."
   },
   {
     image: nilayHeadshot,
     name: "Nilay Sondagar",
-    title: "Communications Director",
+    title: "Director of Communications",
     date: "2019 - Present",
-    description: "In charge of updating the citizens of Letterkenny on new projects from the Snow and Ice Control Team. Also responsible for handling any and all public relations including press releases, keynote speeches, and promotional materials."
+    description: "In charge of updating the stakeholders and public on new projects from Bad Wall Solutions. Also responsible for handling any and all public relations including press releases, keynote speeches, and promotional materials."
   },
   {
     image: noahHeadshot,
     name: "Noah Clarke",
-    title: "Head Snow Plow Driver",
+    title: "Chief Technology Officer",
     date: "2019 - Present",
-    description: "Snow plow driver on the Snow and Ice Control Team. Also responsible for driver training and represents the Snow and Ice Control Team in communications with management, city employees, and other outside parties."
+    description: "Responsible for maintenance and initial generation of technical projects. Also ensures that all projects meet the minimum quality and security requirements."
   },
   {
     image: michelleHeadshot,
     name: "Michelle Aleman",
-    title: "Head Dispatch Operator",
+    title: "Director of Geospatial Systems",
     date: "2019 - Present",
-    description: "In charge of assigning snow plow routes to Snow and Ice Control Team drivers at least one day before they are cleared. The head dispatch operator is also responsible for communicating any urgent updates to routes to the affected drivers through the dispatch system."
+    description: "Responsible for maintaining geospatial mapping systems in use by all Bad Wall Solutions' projects. Also finds new and more efficient technologies that can used to replace existing mapping systems."
   },
   {
     image: hailamHeadshot,
     name: "Hailam Nguyen",
-    title: "Environmental Conditions Specialist",
+    title: "Senior Project Manager",
     date: "2019 - Present",
-    description: "In charge of monitoring the impact of snow on Letterkenny, identifying the environmental issues and proposing some solutions. Also maintaining distinct records related to research, data of permits and inspections to improve the living conditions of the city."
+    description: "All project managers report to the Senior Project Manager, who ensures projects are on schedule and within scope. Also collates all projects' performance and progress into a report that is distributed to stakeholders."
   },
   {
     image: elmerHeadshot,
     name: "Elmer Martinez",
-    title: "City Councillor in Charge of Public Safety",
+    title: "Director of System Management",
     date: "2019 - Present",
-    description: "In charge of implementing safety protocols in times of severe weather and other natural calamities, and ensuring the safety of the public at all times."
+    description: "In charge of maintaining and managing internal systems, while also providing high-level technical support to customers for external systems."
   }
 ];

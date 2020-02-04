@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classnames from 'classnames';
 
 import FadingBox, { FadingBoxClassNames } from '../components/common/FadingBox';
-import cityImage from '../assets/images/cityImage.jpg';
+import companyImage from '../assets/images/companyImage.jpg';
 
 /**
  * Class that displays the home page with
@@ -33,7 +33,7 @@ export class HomePage extends Component {
     return (
       <FadingBox className="page-container" pose={boxClassNames}>
         <div className="home">
-          <div className="home__banner" style={{ backgroundImage: `url(${cityImage})` }}>
+          <div className="home__banner" style={{ backgroundImage: `url(${companyImage})` }}>
             <h1 className="home__banner__title">About us</h1>
           </div>
           <div className="home__row">

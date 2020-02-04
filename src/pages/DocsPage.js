@@ -44,7 +44,7 @@ export class DocsPage extends Component {
                   <h4 className="doc-card__content__subtitle__text">{doc.tagline}</h4>
                   <hr className="doc-card__content__divider" />
                   <h4 className="doc-card__content__text">{doc.description}</h4>
-                  <a className="doc-card__content__link-button" href={doc.link} download>Download</a>
+                  <a className="doc-card__content__link-button" href={doc.link} download={`${doc.title}.pdf`}>Download</a>
                 </div>
               </SlidingUpCard>
             ))}

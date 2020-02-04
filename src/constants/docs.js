@@ -1,21 +1,21 @@
-import rfpLink from '../assets/files/rfp.pdf';
-import snowplowImage from '../assets/images/docs/snowplowImage.jpg';
+import rd10Link from '../assets/files/rd1-0.pdf';
+import rd10Image from '../assets/images/docs/rd1-0Image.png';
+import rd11Image from '../assets/images/docs/rd1-1Image.png';
 import fakeLink from '../assets/images/docs/memeImage.jpg';
-import ferryImage from '../assets/images/docs/ferryImage.jpeg';
 
 export const DOCS = [
   {
-    image: snowplowImage,
-    title: 'Snow and Ice Control',
-    tagline: 'A snowplow optimization plan',
-    description: 'The objective of the project is to create a program that will monitor the roads based on weather reports, the amount of snowfall in an area, and the recent plowing of snow that has happened. Using this data, we can plan the snow plow routes better, as well as better inform citizens of road conditions.',
-    link: rfpLink
+    image: rd10Image,
+    title: 'Requirements Document 1.0',
+    tagline: 'Initial Draft',
+    description: 'This document outlines the requirements that must be met by the system in order for it to be deemed complete. This is the initial draft, created solely by Bad Wall Solutions, and is based off the RFP provided by CWall Ltd.',
+    link: rd10Link
   },
   {
-    image: ferryImage,
-    title: 'Ferry Services',
-    tagline: 'A ferry optimization plan',
-    description: 'A ferry service optimization program that will help create a better employee and customer experience! (This isn\'t real, use the other RFP download button)',
+    image: rd11Image,
+    title: 'Requirements Document 1.1',
+    tagline: 'Client Revisions',
+    description: 'In progress...',
     link: fakeLink
   }
 ];
